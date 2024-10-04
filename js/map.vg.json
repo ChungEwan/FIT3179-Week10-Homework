@@ -23,19 +23,19 @@
         },
         {
             "data": {
-            "url": "data/Final-Metro-Systems.csv"
+                "url": "data/metro_systems.csv"
             },
             "mark": {"type": "circle", "tooltip": {"content": "data"}, "color": "darkblue"},
             "encoding": {
-            "longitude": {"field": "Longitude", "type":
+            "longitude": {"field": "longitude", "type":
             "quantitative"},
-            "latitude": {"field": "Latitude", "type":
+            "latitude": {"field": "latitude", "type":
             "quantitative"},
             "size": {
-                "field": "Annual ridership(millions)",
+                "field": "annual_ridership_millions",
                 "type": "quantitative",
                 "title": "Annual Ridership in millions",
-                "scale": {"domain": [1, 1500]}
+                "scale": {"domain": [1, 3000]}
             }
             }
         }
