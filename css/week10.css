@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+}
+
+.page {
+    width: 80%;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+}
+
+h1, h2 {
+    font-family: "Metrophobic", sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: "Metrophobic", sans-serif;
+}
+
+.pure-u-10-24 {
+    display: grid;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Metrophobic;
+    src: url(https://fonts.googleapis.com/css2?family=Metrophobic&display=swap);
+}
